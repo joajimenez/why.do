@@ -1,2 +1,2 @@
 # why.do
-A tribute site to the Dominican Republio
+A tribute site to the Dominican Republic

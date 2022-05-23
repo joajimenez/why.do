@@ -24,6 +24,5 @@ function randomColor() {
 window.onload = (e) => {
   contentDivs.forEach((content) => {
     content.style.backgroundColor = randomColor();
-    console.log(randomColor());
   });
 };

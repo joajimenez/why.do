@@ -16,10 +16,9 @@ font-family: 'Rubik', sans-serif; */
 
 .navbar {
     grid-area: navbar;
-    /* background-color: aqua; */
     display: flex;
-    justify-content: space-between;
-    padding:  1rem 0;
+    justify-content: space-around;
+    padding:  1rem 0rem;
 }
 
 .links-container {
@@ -38,14 +37,22 @@ a:hover{
     text-decoration: underline;
 }
 
+img{
+    width: 25%;
+    margin-top: .5rem;
+}
+
 .hero-div {
     grid-area: hero-div;
     /* background-color: #f06457; */
 }
 
 .content {
-    padding: 0 3rem;
+    padding: 0 1rem;
     border-radius: .3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .content-1 {

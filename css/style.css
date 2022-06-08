@@ -3,7 +3,6 @@
 /* font-family: 'Roboto Mono', monospace;
 font-family: 'Rubik', sans-serif; */
 
-
 .container {
     display: flex;
     flex-direction: column;
@@ -136,26 +135,29 @@ img{
 
 .content-17 {
     grid-area: content-17;
-    
 }
 
 .content-18 {
     grid-area: content-18;
-    
 }
 
 .side-footer {
     grid-area: side-footer;
-    
 }
 
 footer {
     grid-area: footer;
-    
+    font-family: 'Roboto Mono', monospace;
 }
 
 p {
     font-family: 'Roboto Mono', monospace;
+}
+
+hr {
+    border: 5px ;
+    border-style: dotted; 
+    color: black
 }
 
 @media screen and (min-width: 550px) {
